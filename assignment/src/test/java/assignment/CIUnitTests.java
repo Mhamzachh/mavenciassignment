@@ -21,14 +21,5 @@ public class CIUnitTests {
 		String value = "sweden";
 		Assert.assertEquals("SWEDEN", helper.stringToUpper(value));
 	}
-	@Test
-	public void testStringContains()
-	{
-		//Added Contains Method
-		StringHelper helper = new StringHelper();
-		String value = "this is a tree";
-		String _chk = "tree";
-		Assert.assertTrue(helper.stringContians(value, _chk));
-	}
 
 }
