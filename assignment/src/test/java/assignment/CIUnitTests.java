@@ -24,6 +24,7 @@ public class CIUnitTests {
 	@Test
 	public void testStringContains()
 	{
+		//Added Contains Method
 		StringHelper helper = new StringHelper();
 		String value = "this is a tree";
 		String _chk = "tree";
