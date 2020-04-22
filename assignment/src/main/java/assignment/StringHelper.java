@@ -9,4 +9,8 @@ public class StringHelper {
 	{
 		return value.toUpperCase();
 	}
+	public boolean stringContains(String value, String chk)
+	{
+		return value.contains(chk);
+	}
 }
