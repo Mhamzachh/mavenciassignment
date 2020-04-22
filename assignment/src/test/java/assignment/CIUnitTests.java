@@ -21,6 +21,13 @@ public class CIUnitTests {
 		String value = "sweden";
 		Assert.assertEquals("SWEDEN", helper.stringToUpper(value));
 	}
-	//Add Unit Test
+	@Test
+	public void testStringContains()
+	{
+		StringHelper helper = new StringHelper();
+		String value = "sweden";
+		String chk = "den";
+		Assert.assertTrue(helper.stringContains(value,chk));
+	}
 
 }
