@@ -14,5 +14,12 @@ public class CIUnitTests {
 		String value = "ABC";
 		Assert.assertEquals("abc", helper.stringToLower(value));
 	}
+	@Test
+	public void testStringToUpper()
+	{
+		StringHelper helper = new StringHelper();
+		String value = "sweden";
+		Assert.assertEquals("SWEDEN", helper.stringToUpper(value));
+	}
 
 }
