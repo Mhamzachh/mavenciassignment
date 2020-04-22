@@ -21,5 +21,6 @@ public class CIUnitTests {
 		String value = "sweden";
 		Assert.assertEquals("SWEDEN", helper.stringToUpper(value));
 	}
+	//Add Unit Test
 
 }
