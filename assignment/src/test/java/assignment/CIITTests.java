@@ -12,5 +12,10 @@ public class CIITTests {
 		HelperIntegeration _int = new HelperIntegeration();
 		Assert.assertTrue("Test Successfull", _int.verifyConvertStringToLower("SWEDEN"));
 	}
+	@Test
+	public void testIntegrationHelperUpper() {
+		HelperIntegeration _int = new HelperIntegeration();
+		Assert.assertTrue("Test Successfull", _int.verifyConvertStringToUpper("sweden"));
+	}
 
 }
