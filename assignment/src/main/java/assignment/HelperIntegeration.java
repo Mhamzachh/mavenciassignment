@@ -13,7 +13,7 @@ public class HelperIntegeration {
 	}
 	public boolean verifyConvertStringToUpper(String obj)
 	{
-		return _helper.stringToLower(obj).equals(obj.toUpperCase());
+		return _helper.stringToUpper(obj).equals(obj.toUpperCase());
 	}
 			
 }
