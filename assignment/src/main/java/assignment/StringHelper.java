@@ -5,4 +5,8 @@ public class StringHelper {
 	{
 		return value.toLowerCase();
 	}
+	public String stringToUpper(String value)
+	{
+		return value.toUpperCase();
+	}
 }
