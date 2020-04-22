@@ -11,5 +11,9 @@ public class HelperIntegeration {
 	{
 		return _helper.stringToLower(obj).equals(obj.toLowerCase());
 	}
+	public boolean verifyConvertStringToUpper(String obj)
+	{
+		return _helper.stringToLower(obj).equals(obj.toUpperCase());
+	}
 			
 }
